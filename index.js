@@ -44,4 +44,4 @@ const loadCommands = (dir = "./commandes/") => {
 loadCommands()
 
 
-client.login(config.login.Nzk4NTA0Njc1NDk4MzkzNjAw.X_1_bg.gn4LYTGDsgLQNbWyzFJ_DKYUSTE).catch(e => { console.log(`[CRITICAL ERROR]`.red + ` Erreur rencontrée: ${e}`) });
+client.login(config.login.token).catch(e => { console.log(`[CRITICAL ERROR]`.red + ` Erreur rencontrée: ${e}`) });
